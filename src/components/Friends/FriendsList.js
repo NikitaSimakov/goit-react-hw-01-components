@@ -1,5 +1,4 @@
-// import PropTypes from 'prop-types';
-import { FriendsItem } from './FriendsItem';
+import { FriendsItem } from 'components/Friends/FriendsItem';
 export function FriendsList({ friends }) {
   return (
     <ul className="friend-list">

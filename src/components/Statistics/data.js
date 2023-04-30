@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import data from '../data/data';
+import data from 'data/data';
 
 export function Statistics(prop) {
   return (
@@ -20,6 +20,12 @@ export function Statistics(prop) {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.array.isRequired,
   key: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.exact({
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+      id: PropTypes.string.isRequired,
+    })
+  ),
 };

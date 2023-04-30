@@ -1,7 +1,7 @@
-import {Profile} from 'components/user'
-import { Statistics } from 'components/data';
-import { FriendsList } from 'components/FriendsList';
-import { TransactionHistory } from 'components/TransactionHistory';
+import { Profile } from 'components/User/user'
+import { Statistics } from 'components/Statistics/data';
+import { FriendsList } from 'components/Friends/FriendsList';
+import { TransactionHistory } from 'components/Transaction/TransactionHistory';
 import user from 'data/user'
 import data from 'data/data';
 import friends from 'data/friends';
