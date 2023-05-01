@@ -11,10 +11,15 @@
     margin: 20px;
 }
 
+.avatar {
+    border: 2px solid gray;
+}
+
 .description_info {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 40px;
 }
 
 .name {

@@ -6,7 +6,7 @@ export function Profile(props) {
   return (
     <div className={css.profile}>
       <div className={css.description}>
-        <img src={avatar} alt="User avatar" className="avatar" />
+        <img src={avatar} alt="User avatar" className={css.avatar} />
         <div className={css.description_info}>
           <p className={css.name}>{username}</p>
           <p className={css.tag}>@{tag}</p>

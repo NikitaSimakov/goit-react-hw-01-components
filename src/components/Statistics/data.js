@@ -3,13 +3,22 @@ import data from 'data/data';
 import css from './statistics.module.css';
 
 export function Statistics(prop) {
+  function getRandomHexColor() {
+    return `#${Math.floor(Math.random() * 16777215)
+      .toString(16)
+      .padStart(6, 0)}`;
+  }
   return (
     <section className={css.statistics}>
       {prop.title ? <h2 className={css.title}>{prop.title}</h2> : undefined}
 
       <ul className={css.stat_list}>
         {data.map(stats => (
-          <li className={css.item} key={stats.id}>
+          <li
+            style={{ backgroundColor: getRandomHexColor() }}
+            className={css.item}
+            key={stats.id}
+          >
             <span className="label">{stats.label}</span>
             <span className="percentage">{stats.percentage}%</span>
           </li>

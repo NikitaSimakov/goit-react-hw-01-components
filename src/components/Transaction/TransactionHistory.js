@@ -2,8 +2,6 @@ import { TransactionItem } from './TransactionItem';
 import css from './TransactionHistory.module.css';
 export function TransactionHistory(prop) {
   const { transaction } = prop;
-  console.log(transaction);
-
   return (
     <table className={css.transaction_history}>
       <thead>
