@@ -1,0 +1,55 @@
+.description {
+    display: flex;
+}
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.description_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.tag {
+    font-size: 32px;
+}
+
+.location {
+    font-size: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.label {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.label_border {
+    margin-left: 15px;
+}
+
+.stats_listItem {
+    margin-right: 15px;
+}
+.stats_listItem:last-child {
+    margin-right: 0;
+}

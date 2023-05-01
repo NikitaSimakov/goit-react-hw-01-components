@@ -1,0 +1,9 @@
+.item {
+    margin-right: 15px;
+}
+
+.item:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
