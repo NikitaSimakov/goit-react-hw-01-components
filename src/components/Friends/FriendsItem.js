@@ -10,7 +10,7 @@ export function FriendsItem(prop) {
         {isOnline ? '🟢' : '⚪'}
       </span>
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
+      <p className={css.name}>{name}</p>
     </li>
   );
 }

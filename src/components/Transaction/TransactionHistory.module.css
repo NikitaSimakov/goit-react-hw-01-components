@@ -1,0 +1,15 @@
+.transaction_history {
+    width: 900px;
+
+    margin: 60px auto;
+
+    border: 2px solid gray;
+}
+
+.transaction_title {
+    background-color: gray;
+}
+
+.transaction_head {
+    text-align: left;
+}
