@@ -74,7 +74,11 @@
 
 .stats_listItem {
     border-right: 1px solid gray;
-    padding: 20px 25px;
+    padding: 20px 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .stats_listItem:last-child {
     border: none;
