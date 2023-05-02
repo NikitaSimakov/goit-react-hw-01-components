@@ -1,7 +1,4 @@
-.description {
-    /* display: flex; */
-   
-    width: 500px;
+.description {width: 500px;
 
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +31,6 @@
 }
 
 .description_info {
-    /* display: block; */
     display: flex;
     flex-direction: column;
     justify-content: center;
