@@ -10,7 +10,7 @@ export function Statistics(prop) {
   }
   return (
     <section className={css.statistics}>
-      {prop.title ? <h2 className={css.title}>{prop.title}</h2> : undefined}
+      {prop.title && <h2 className={css.title}>{prop.title}</h2>}
 
       <ul className={css.stat_list}>
         {data.map(stats => (
