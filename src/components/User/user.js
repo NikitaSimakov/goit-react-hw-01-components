@@ -18,12 +18,10 @@ export function Profile(props) {
         <li className={css.stats_listItem}>
           <span className={css.label}>Followers</span>
           <span className="quantity">{followers}</span>
-          <span className={css.label_border}> | </span>
         </li>
         <li className={css.stats_listItem}>
           <span className={css.label}>Views</span>
           <span className="quantity">{views}</span>
-          <span className={css.label_border}> | </span>
         </li>
         <li className={css.stats_listItem}>
           <span className={css.label}>Likes</span>
