@@ -1,33 +1,48 @@
 .description {
-    display: flex;
+    /* display: flex; */
+   
+    width: 500px;
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid gray;
+    border-bottom: none;
 }
 .profile {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
-    border: 2px solid gray;
-    padding: 20px;
-    margin: 20px;
 }
 
 .avatar {
     border: 2px solid gray;
+    border-radius: 50%;
+    width: 250px;
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .description_info {
+    /* display: block; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 40px;
+    text-align: center;
+
+    margin-bottom: 20px;
 }
 
 .name {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .tag {
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .location {
@@ -37,10 +52,10 @@
 .stats {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border: 2px solid gray;
     padding: 20px;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .label {
