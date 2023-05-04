@@ -3,10 +3,11 @@
     justify-content: space-around;
 
     border: 2px solid gray;
-padding: 30px 30px;
-margin: 20px;
-width: 600px;
-margin-left: auto;
-margin-right: auto;
+
+    padding: 30px 30px;
+    margin: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
